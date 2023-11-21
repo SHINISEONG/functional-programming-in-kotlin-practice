@@ -1,9 +1,9 @@
-package chapter2
+package chapter2.practices.practice1
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
-class practice_2_1_test {
+class PracticeTest {
     @Test
     fun `주어진 숫자 번째의 피보나치 수 검증`() {
         val expectedFifthFibNum = 5

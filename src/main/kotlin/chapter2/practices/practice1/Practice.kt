@@ -1,4 +1,4 @@
-package chapter2
+package chapter2.practices.practice1
 fun fib(n: Int): Int {
     tailrec fun go(n: Int, curr: Int = 0, next: Int = 1): Int {
         return if (n == 0) curr

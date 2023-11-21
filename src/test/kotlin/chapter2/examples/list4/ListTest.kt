@@ -1,9 +1,9 @@
-package chapter2
+package chapter2.examples.list4
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
-class list_2_4_test {
+class ListTest {
     @Test
     fun `배열에서 어떤 문자열을 찾는 단형적 함수 검증`(){
         val strings = arrayOf("가", "나", "다", "라")

@@ -1,4 +1,4 @@
-package chapter2
+package chapter2.examples.list3
 
 
 fun findFirst(strings: Array<String>, key: String): Int {

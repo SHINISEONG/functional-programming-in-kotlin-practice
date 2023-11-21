@@ -1,4 +1,4 @@
-package chapter2
+package chapter2.examples.list4
 
 fun <T> findFirst(array: Array<T>, fn: (T) -> Boolean ): Int {
     tailrec fun loop(n: Int): Int =
