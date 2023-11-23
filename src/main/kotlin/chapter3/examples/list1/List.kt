@@ -26,6 +26,8 @@ sealed class List<out A> {
                             if (strings.tail !is Nil) separator + joinToString(strings.tail, separator)
                             else "" + joinToString(strings.tail, separator)
             }
+
+        fun <A> empty(): List<A> = Nil
     }
 }
 data object Nil : List<Nothing>()
