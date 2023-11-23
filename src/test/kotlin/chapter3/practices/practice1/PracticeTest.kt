@@ -1,7 +1,6 @@
-package chapter3.practices.pratice1
+package chapter3.practices.practice1
 
 import chapter3.examples.list1.List
-import chapter3.practices.practice1.tail
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
