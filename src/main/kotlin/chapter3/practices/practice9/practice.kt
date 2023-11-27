@@ -9,3 +9,4 @@ tailrec fun <A, B> foldLeft(xs: List<A>, z: B, fn: (B, A) -> B): B =
         is Cons -> foldLeft(xs.tail, fn(z, xs.head), fn)
         is Nil -> z
     }
+
