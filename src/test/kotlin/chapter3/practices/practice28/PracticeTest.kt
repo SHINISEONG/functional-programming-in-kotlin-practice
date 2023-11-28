@@ -32,11 +32,11 @@ class PracticeTest : StringSpec({
     }
 
     "sizeF Test" {
-        sizeF(intTree)
+        sizeF(intTree) shouldBe 5
     }
 
     "maximumF Test" {
-        maximumF(intTree)
+        maximumF(intTree) shouldBe 5
     }
 
     "depthF Test" {
